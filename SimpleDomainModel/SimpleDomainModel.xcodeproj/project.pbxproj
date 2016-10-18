@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		C914601C1DB4931500FFB88C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C914601B1DB4931500FFB88C /* main.swift */; };
+		C91460331DB494D200FFB88C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C914602E1DB494D200FFB88C /* Info.plist */; };
+		C91460341DB494D200FFB88C /* JobTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C914602F1DB494D200FFB88C /* JobTests.swift */; };
+		C91460351DB494D200FFB88C /* MoneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91460301DB494D200FFB88C /* MoneyTests.swift */; };
+		C91460361DB494D200FFB88C /* PersonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91460311DB494D200FFB88C /* PersonTests.swift */; };
+		C91460371DB494D200FFB88C /* SimpleDomainModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91460321DB494D200FFB88C /* SimpleDomainModelTests.swift */; };
+		C95D41D41DB66DA4003C6420 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C914601B1DB4931500FFB88C /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +31,24 @@
 /* Begin PBXFileReference section */
 		C91460181DB4931500FFB88C /* SimpleDomainModel */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SimpleDomainModel; sourceTree = BUILT_PRODUCTS_DIR; };
 		C914601B1DB4931500FFB88C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C91460261DB4944C00FFB88C /* DomainModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DomainModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C914602A1DB4944C00FFB88C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C914602E1DB494D200FFB88C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../uwsimpledomainmodel/SimpleDomainModel/SimpleDomainModelTests/Info.plist; sourceTree = "<group>"; };
+		C914602F1DB494D200FFB88C /* JobTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JobTests.swift; path = ../../uwsimpledomainmodel/SimpleDomainModel/SimpleDomainModelTests/JobTests.swift; sourceTree = "<group>"; };
+		C91460301DB494D200FFB88C /* MoneyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoneyTests.swift; path = ../../uwsimpledomainmodel/SimpleDomainModel/SimpleDomainModelTests/MoneyTests.swift; sourceTree = "<group>"; };
+		C91460311DB494D200FFB88C /* PersonTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PersonTests.swift; path = ../../uwsimpledomainmodel/SimpleDomainModel/SimpleDomainModelTests/PersonTests.swift; sourceTree = "<group>"; };
+		C91460321DB494D200FFB88C /* SimpleDomainModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimpleDomainModelTests.swift; path = ../../uwsimpledomainmodel/SimpleDomainModel/SimpleDomainModelTests/SimpleDomainModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C91460151DB4931500FFB88C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C91460231DB4944C00FFB88C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				C914601A1DB4931500FFB88C /* SimpleDomainModel */,
+				C91460271DB4944C00FFB88C /* DomainModelTests */,
 				C91460191DB4931500FFB88C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				C91460181DB4931500FFB88C /* SimpleDomainModel */,
+				C91460261DB4944C00FFB88C /* DomainModelTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +82,19 @@
 				C914601B1DB4931500FFB88C /* main.swift */,
 			);
 			path = SimpleDomainModel;
+			sourceTree = "<group>";
+		};
+		C91460271DB4944C00FFB88C /* DomainModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				C914602E1DB494D200FFB88C /* Info.plist */,
+				C914602F1DB494D200FFB88C /* JobTests.swift */,
+				C91460301DB494D200FFB88C /* MoneyTests.swift */,
+				C91460311DB494D200FFB88C /* PersonTests.swift */,
+				C91460321DB494D200FFB88C /* SimpleDomainModelTests.swift */,
+				C914602A1DB4944C00FFB88C /* Info.plist */,
+			);
+			path = DomainModelTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +117,23 @@
 			productReference = C91460181DB4931500FFB88C /* SimpleDomainModel */;
 			productType = "com.apple.product-type.tool";
 		};
+		C91460251DB4944C00FFB88C /* DomainModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C914602B1DB4944C00FFB88C /* Build configuration list for PBXNativeTarget "DomainModelTests" */;
+			buildPhases = (
+				C91460221DB4944C00FFB88C /* Sources */,
+				C91460231DB4944C00FFB88C /* Frameworks */,
+				C91460241DB4944C00FFB88C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DomainModelTests;
+			productName = DomainModelTests;
+			productReference = C91460261DB4944C00FFB88C /* DomainModelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -93,6 +145,11 @@
 				ORGANIZATIONNAME = "Matt Bond";
 				TargetAttributes = {
 					C91460171DB4931500FFB88C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ETMQ5VFD4P;
+						ProvisioningStyle = Automatic;
+					};
+					C91460251DB4944C00FFB88C = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = ETMQ5VFD4P;
 						ProvisioningStyle = Automatic;
@@ -112,9 +169,21 @@
 			projectRoot = "";
 			targets = (
 				C91460171DB4931500FFB88C /* SimpleDomainModel */,
+				C91460251DB4944C00FFB88C /* DomainModelTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C91460241DB4944C00FFB88C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C91460331DB494D200FFB88C /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C91460141DB4931500FFB88C /* Sources */ = {
@@ -122,6 +191,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				C914601C1DB4931500FFB88C /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C91460221DB4944C00FFB88C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C91460371DB494D200FFB88C /* SimpleDomainModelTests.swift in Sources */,
+				C95D41D41DB66DA4003C6420 /* main.swift in Sources */,
+				C91460341DB494D200FFB88C /* JobTests.swift in Sources */,
+				C91460361DB494D200FFB88C /* PersonTests.swift in Sources */,
+				C91460351DB494D200FFB88C /* MoneyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +317,34 @@
 			};
 			name = Release;
 		};
+		C914602C1DB4944C00FFB88C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ETMQ5VFD4P;
+				INFOPLIST_FILE = DomainModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MatthewBond.DomainModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C914602D1DB4944C00FFB88C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ETMQ5VFD4P;
+				INFOPLIST_FILE = DomainModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MatthewBond.DomainModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -255,6 +364,16 @@
 				C91460211DB4931500FFB88C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C914602B1DB4944C00FFB88C /* Build configuration list for PBXNativeTarget "DomainModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C914602C1DB4944C00FFB88C /* Debug */,
+				C914602D1DB4944C00FFB88C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
