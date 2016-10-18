@@ -77,6 +77,48 @@ class Job {
     }
 }
 
+class Person {
+    var firstName: String
+    var lastName: String
+    var age: Int
+    var job: Job?
+    var spouse: String?
+    
+    init(fn: String, ln: String, age: Int) {
+        self.firstName = fn
+        self.lastName = ln
+        self.age = age
+        if age < 16 {
+            self.job = nil
+        }
+        if age < 18 {
+            self.spouse = nil
+        }
+    }
+    
+    func toString() -> String {
+        return firstName + " " + lastName
+    }
+}
+
+
+class Family {
+    var family: [Person]
+    
+    init(<#parameters#>) {
+        <#statements#>
+    }
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
