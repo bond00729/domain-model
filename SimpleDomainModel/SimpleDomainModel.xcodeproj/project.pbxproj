@@ -13,7 +13,7 @@
 		C91460351DB494D200FFB88C /* MoneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91460301DB494D200FFB88C /* MoneyTests.swift */; };
 		C91460361DB494D200FFB88C /* PersonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91460311DB494D200FFB88C /* PersonTests.swift */; };
 		C91460371DB494D200FFB88C /* SimpleDomainModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91460321DB494D200FFB88C /* SimpleDomainModelTests.swift */; };
-		C95D41D41DB66DA4003C6420 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C914601B1DB4931500FFB88C /* main.swift */; };
+		C93D335F1DB6E326009D4753 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C914601B1DB4931500FFB88C /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -199,7 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C91460371DB494D200FFB88C /* SimpleDomainModelTests.swift in Sources */,
-				C95D41D41DB66DA4003C6420 /* main.swift in Sources */,
+				C93D335F1DB6E326009D4753 /* main.swift in Sources */,
 				C91460341DB494D200FFB88C /* JobTests.swift in Sources */,
 				C91460361DB494D200FFB88C /* PersonTests.swift in Sources */,
 				C91460351DB494D200FFB88C /* MoneyTests.swift in Sources */,
