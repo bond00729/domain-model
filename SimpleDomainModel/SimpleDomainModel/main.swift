@@ -185,8 +185,13 @@ class Family {
         return totalIncome
     }
     
-    func haveChild (_ child: Person) {
-        family.append(child)
+    func haveChild (_ child: Person) -> Bool {
+        if (family.count > 2) {
+            return false;
+        } else {
+            family.append(child)
+            return true;
+        }
     }
 }
 
