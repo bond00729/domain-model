@@ -16,7 +16,7 @@ open class TestMe {
     open func Please() -> String {
         return "I have been tested"
     }
-}
+} 
 
 struct Money {
     
