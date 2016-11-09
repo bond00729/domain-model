@@ -8,11 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		C914601C1DB4931500FFB88C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C914601B1DB4931500FFB88C /* main.swift */; };
-		C91460331DB494D200FFB88C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C914602E1DB494D200FFB88C /* Info.plist */; };
-		C91460341DB494D200FFB88C /* JobTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C914602F1DB494D200FFB88C /* JobTests.swift */; };
-		C91460351DB494D200FFB88C /* MoneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91460301DB494D200FFB88C /* MoneyTests.swift */; };
-		C91460361DB494D200FFB88C /* PersonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91460311DB494D200FFB88C /* PersonTests.swift */; };
-		C91460371DB494D200FFB88C /* SimpleDomainModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91460321DB494D200FFB88C /* SimpleDomainModelTests.swift */; };
+		C92D740C1DD2B3FC007EAE6D /* JobTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92D74081DD2B3FC007EAE6D /* JobTests.swift */; };
+		C92D740D1DD2B3FC007EAE6D /* MoneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92D74091DD2B3FC007EAE6D /* MoneyTests.swift */; };
+		C92D740E1DD2B3FC007EAE6D /* PersonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92D740A1DD2B3FC007EAE6D /* PersonTests.swift */; };
+		C92D740F1DD2B3FC007EAE6D /* SimpleDomainModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92D740B1DD2B3FC007EAE6D /* SimpleDomainModelTests.swift */; };
 		C93D335F1DB6E326009D4753 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C914601B1DB4931500FFB88C /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,11 +32,10 @@
 		C914601B1DB4931500FFB88C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C91460261DB4944C00FFB88C /* DomainModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DomainModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C914602A1DB4944C00FFB88C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C914602E1DB494D200FFB88C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../uwsimpledomainmodel/SimpleDomainModel/SimpleDomainModelTests/Info.plist; sourceTree = "<group>"; };
-		C914602F1DB494D200FFB88C /* JobTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JobTests.swift; path = ../../uwsimpledomainmodel/SimpleDomainModel/SimpleDomainModelTests/JobTests.swift; sourceTree = "<group>"; };
-		C91460301DB494D200FFB88C /* MoneyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoneyTests.swift; path = ../../uwsimpledomainmodel/SimpleDomainModel/SimpleDomainModelTests/MoneyTests.swift; sourceTree = "<group>"; };
-		C91460311DB494D200FFB88C /* PersonTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PersonTests.swift; path = ../../uwsimpledomainmodel/SimpleDomainModel/SimpleDomainModelTests/PersonTests.swift; sourceTree = "<group>"; };
-		C91460321DB494D200FFB88C /* SimpleDomainModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimpleDomainModelTests.swift; path = ../../uwsimpledomainmodel/SimpleDomainModel/SimpleDomainModelTests/SimpleDomainModelTests.swift; sourceTree = "<group>"; };
+		C92D74081DD2B3FC007EAE6D /* JobTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobTests.swift; sourceTree = "<group>"; };
+		C92D74091DD2B3FC007EAE6D /* MoneyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoneyTests.swift; sourceTree = "<group>"; };
+		C92D740A1DD2B3FC007EAE6D /* PersonTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTests.swift; sourceTree = "<group>"; };
+		C92D740B1DD2B3FC007EAE6D /* SimpleDomainModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleDomainModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,11 +85,10 @@
 		C91460271DB4944C00FFB88C /* DomainModelTests */ = {
 			isa = PBXGroup;
 			children = (
-				C914602E1DB494D200FFB88C /* Info.plist */,
-				C914602F1DB494D200FFB88C /* JobTests.swift */,
-				C91460301DB494D200FFB88C /* MoneyTests.swift */,
-				C91460311DB494D200FFB88C /* PersonTests.swift */,
-				C91460321DB494D200FFB88C /* SimpleDomainModelTests.swift */,
+				C92D74081DD2B3FC007EAE6D /* JobTests.swift */,
+				C92D74091DD2B3FC007EAE6D /* MoneyTests.swift */,
+				C92D740A1DD2B3FC007EAE6D /* PersonTests.swift */,
+				C92D740B1DD2B3FC007EAE6D /* SimpleDomainModelTests.swift */,
 				C914602A1DB4944C00FFB88C /* Info.plist */,
 			);
 			path = DomainModelTests;
@@ -179,7 +176,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C91460331DB494D200FFB88C /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,11 +194,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C91460371DB494D200FFB88C /* SimpleDomainModelTests.swift in Sources */,
 				C93D335F1DB6E326009D4753 /* main.swift in Sources */,
-				C91460341DB494D200FFB88C /* JobTests.swift in Sources */,
-				C91460361DB494D200FFB88C /* PersonTests.swift in Sources */,
-				C91460351DB494D200FFB88C /* MoneyTests.swift in Sources */,
+				C92D740F1DD2B3FC007EAE6D /* SimpleDomainModelTests.swift in Sources */,
+				C92D740C1DD2B3FC007EAE6D /* JobTests.swift in Sources */,
+				C92D740E1DD2B3FC007EAE6D /* PersonTests.swift in Sources */,
+				C92D740D1DD2B3FC007EAE6D /* MoneyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
